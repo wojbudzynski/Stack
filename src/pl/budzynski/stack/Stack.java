@@ -110,29 +110,5 @@ public class Stack<E extends Comparable>
     public boolean empty() {
         return top==null;
     }
-/*
-    public String toString()
-    {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Stack:\n");
-        sb.append("Min: ");
-        sb.append(min.element.toString());
-        sb.append("\n");
-        sb.append("--------\n");
-        StackElement iterator=top;
-        while(iterator!=null) {
-            sb.append(iterator.element.toString());
-            sb.append(" previous ");
-            if(iterator.previousMin!=null)
-                sb.append(iterator.previousMin.element.toString());
-            else
-                sb.append("null");
-            sb.append("\n");
-            iterator=iterator.under;
 
-        }
-        sb.append("--------");
-        return sb.toString();
-    }
-*/
 }
